@@ -69,7 +69,7 @@
                 <p>Tapiceria Ramos</p>
                 </div>
             </section>
-            <!-- Load Facebook SDK for JavaScript -->
+           <!-- Load Facebook SDK for JavaScript -->
       <div id="fb-root"></div>
       <script>
         window.fbAsyncInit = function() {
@@ -83,14 +83,16 @@
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));</script>
 
       <!-- Your Chat Plugin code -->
       <div class="fb-customerchat"
         attribution=setup_tool
-        page_id="315591472232179">
+        page_id="105598411247040"
+  logged_in_greeting="Hola, ¿En que te podemos ayudar?"
+  logged_out_greeting="Hola, ¿En que te podemos ayudar?">
       </div>
             
             <section id="blog">
